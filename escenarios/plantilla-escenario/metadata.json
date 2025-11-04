@@ -1,1 +1,26 @@
-{} 
+{
+  "id": "escenario-x",
+  "titulo": "Robo de credenciales corporativas",
+  "autor": "Adrián Gómez-Valadés Castaño",
+  "fecha_creacion": "2025-11-04",
+  "version": "1.0",
+  "sistema_operativo": "Windows 10 x64",
+  "nivel_dificultad": "Media",
+  "evidencias": {
+    "memoria": "memoria.raw",
+    "disco": "disco.vhd"
+  },
+  "descripcion": "Se analiza un volcado de memoria y una imagen de disco correspondientes a un incidente de robo de credenciales en un equipo corporativo.",
+  "herramientas_recomendadas": [
+    "Volatility 3",
+    "Autopsy",
+    "FTK Imager"
+  ],
+  "tags": [
+    "memoria",
+    "disco",
+    "forense",
+    "volatility",
+    "autopsy"
+  ]
+}
