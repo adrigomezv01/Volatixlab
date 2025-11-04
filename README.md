@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="media/logo-volatixlab.png" width="180" alt="VolatixLab Logo">
+</p>
+
 # 🧠 VolatixLab
 
 **VolatixLab** es un laboratorio de **análisis forense digital en español**, creado por [Adrián Gómez-Valadés Castaño](https://adriangvc.com).  
@@ -36,6 +40,7 @@ VolatixLab/
 ├── scripts/ → Scripts útiles (hash, metadata, etc.)
 │
 └── media/ → Logo, capturas y material visual
+
 
 ---
 
