@@ -1,1 +1,49 @@
-.DS_Store 
+# ------------------------------------
+# VolatixLab - Git Ignore Configuration
+# ------------------------------------
+
+# ⚙️ Archivos del sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 🧩 Archivos temporales y de entorno
+*.tmp
+*.log
+*.bak
+*.swp
+*.swo
+*.~lock*
+*.temp
+*.cache
+
+# 💾 Archivos binarios grandes (no se suben al repo)
+*.vhd
+*.vmdk
+*.img
+*.iso
+*.raw
+*.mem
+*.zip
+*.rar
+*.7z
+
+# 📄 Archivos de sistema operativo o de IDE
+.vscode/
+.idea/
+.env
+__pycache__/
+*.pyc
+*.pyo
+
+# 🧠 Datos de análisis forense (demasiado grandes)
+evidencias/
+solucion/
+*.dump
+
+# 🧰 Scripts o herramientas locales no compartidas
+local-scripts/
+tests/
+
+# ✅ Mantener solo estructuras vacías con .gitkeep
+!*/.gitkeep
